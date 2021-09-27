@@ -8,3 +8,7 @@ class CreatePizzas < ActiveRecord::Migration[5.2]
     end 
   end
 end
+
+
+
+# CREATE TABLE IF NOT EXISTS

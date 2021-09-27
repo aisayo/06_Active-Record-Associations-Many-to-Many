@@ -3,6 +3,9 @@
 ### Lecture Deliverables
 
 - Add a Trip class that joins both the starship and passengers class
+- trip belongs to both starship and passengers class
+- passenger has many trips, has many starships through the trips 
+- starship has many trips, has many passengers through trips
 
 ### Lecture Take Aways
 
@@ -15,3 +18,9 @@
 - Has many, through
 - Join models
 - Custom instance and class methods
+
+
+### Associations
+- relationships between tables
+- has_many
+- belongs_to
