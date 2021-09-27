@@ -10,17 +10,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_09_24_203631) do
+ActiveRecord::Schema.define(version: 2021_09_27_184100) do
 
   create_table "passengers", force: :cascade do |t|
     t.string "name"
-    t.integer "starship_id"
   end
 
   create_table "starships", force: :cascade do |t|
     t.string "name"
     t.string "model"
     t.string "color"
+  end
+
+  create_table "trips", force: :cascade do |t|
+    t.string "name"
+    t.string "date"
+    t.integer "passenger_id"
+    t.integer "starship_id"
   end
 
 end
