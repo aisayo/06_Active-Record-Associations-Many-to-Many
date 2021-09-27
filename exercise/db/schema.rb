@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 2021_09_27_022553) do
     t.string "name"
     t.string "ingredients"
     t.string "desc"
-    t.integer "pizza_id"
+    t.integer "order_id"
   end
 
 end

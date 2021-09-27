@@ -4,7 +4,7 @@ class CreatePizzas < ActiveRecord::Migration[5.2]
       t.string :name
       t.string :ingredients
       t.string :desc
-      t.integer :pizza_id
+      t.integer :order_id
     end 
   end
 end
